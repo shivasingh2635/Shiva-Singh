@@ -1,0 +1,107 @@
+{
+  "lastUpdated": "2026-09-18T15:19:59.808Z",
+  "lastUpdatedBy": "Admin Deletion",
+  "adminWhatsAppNumber": "918792658635",
+  "upiId": "6364848532@upi",
+  "upiMobile": "6364848532",
+  "version": 8,
+  "bookings": [
+    {
+      "id": "BK-8698",
+      "packageId": "kashmir-paradise",
+      "packageTitle": "Kashmir Paradise: Valley of Romance & Snow",
+      "destination": "Srinagar, Gulmarg & Pahalgam, India",
+      "customerName": "JAKKUR LAYOUT",
+      "email": "likithr282@gmail.com",
+      "phone": "+91 98765 43210",
+      "adultsCount": 2,
+      "childrenCount": 0,
+      "departureDate": "2026-10-02",
+      "hotelTier": "deluxe",
+      "transportType": "private_suv",
+      "addOns": [
+        "travel_insurance"
+      ],
+      "couponCode": "WANDERLUST10",
+      "discountINR": 5200,
+      "totalAmountINR": 48798,
+      "selectedCurrency": "INR",
+      "status": "Confirmed",
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "transactionRef": "326484859012",
+      "upiNumber": "6364848532",
+      "createdAt": "2026-09-18T15:06:24.650Z",
+      "notes": "Houseboat lake-facing suite requested.",
+      "deviceRole": "Mobile / Web Booking Step 1"
+    },
+    {
+      "id": "BK-5680",
+      "packageId": "dubai-luxury",
+      "packageTitle": "Dubai Luxury & Desert Safari Marvels",
+      "destination": "Downtown Dubai, Marina & Arabian Desert, UAE",
+      "customerName": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "+91 98765 43210",
+      "adultsCount": 2,
+      "childrenCount": 1,
+      "departureDate": "2026-11-14",
+      "hotelTier": "luxury",
+      "transportType": "private_suv",
+      "addOns": [
+        "travel_insurance",
+        "airport_lounge"
+      ],
+      "couponCode": "WANDERLUST10",
+      "discountINR": 11500,
+      "totalAmountINR": 103497,
+      "selectedCurrency": "INR",
+      "status": "Confirmed",
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "transactionRef": "419823741029",
+      "upiNumber": "6364848532",
+      "createdAt": "2026-09-18T15:05:50.241Z",
+      "notes": "Burj Khalifa At The Top sunset slot preferred.",
+      "deviceRole": "Mobile / Web Booking Step 1"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "INQ-1042",
+      "customerName": "Sarah Jenkins",
+      "phone": "+44 7911 123456",
+      "email": "sarah.j@travelworld.com",
+      "destination": "Kerala Backwaters & Munnar",
+      "travelers": 2,
+      "message": "Looking for a private luxury Kettuvallam cruise for our anniversary in November with Ayurvedic spa sessions.",
+      "status": "Replied",
+      "adminReply": "We have reserved a private 1-bedroom luxury Spice Coast cruiser in Alleppey and Taj Kumarakom stay. Itinerary sent to your email.",
+      "createdAt": "2026-09-17T10:15:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "USR-DEMO-1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "9876543210",
+      "countryCode": "+91",
+      "password": "123456",
+      "loyaltyTier": "Gold Explorer",
+      "loyaltyPoints": 1250,
+      "createdAt": "2026-08-10T09:00:00.000Z"
+    },
+    {
+      "id": "USR-DEMO-2",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@travelworld.com",
+      "phone": "7911123456",
+      "countryCode": "+44",
+      "password": "123456",
+      "loyaltyTier": "Platinum Connoisseur",
+      "loyaltyPoints": 3800,
+      "createdAt": "2026-07-22T14:30:00.000Z"
+    }
+  ]
+}

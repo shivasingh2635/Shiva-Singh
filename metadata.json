@@ -1,0 +1,6 @@
+{
+  "name": "Wanderlust Tours & Travels",
+  "description": "Professional tours and travels portal featuring curated Indian & International holiday packages, live booking engine, currency switcher, visa guide, dark/light mode, and full admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

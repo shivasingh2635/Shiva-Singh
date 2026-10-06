@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Noto Sans Kannada', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html[lang="hi"] body,
+  html[lang="hi"] h1,
+  html[lang="hi"] h2,
+  html[lang="hi"] h3 {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  html[lang="kn"] body,
+  html[lang="kn"] h1,
+  html[lang="kn"] h2,
+  html[lang="kn"] h3 {
+    font-family: 'Noto Sans Kannada', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, .font-serif-display {
+    font-family: 'Playfair Display', 'Noto Sans Devanagari', 'Noto Sans Kannada', Georgia, serif;
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
